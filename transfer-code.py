@@ -52,8 +52,8 @@ def batch_convert_to_surge(input_dir, output_dir, policy="PROXY"):
 
 if __name__ == "__main__":
     # Define input and output directories
-    input_dir = os.path.expanduser("~/data/dns-blocklists-main/wildcard")
-    output_dir = os.path.expanduser("~/data/dns-blocklists-main/wildcard-surge")
+    input_dir = os.path.expanduser("/home/step/data/dns-blocklists-main/submit_pullrequest_here")
+    output_dir = os.path.expanduser("/home/step/data/dns-blocklists-main/submit_pullrequest_here-surge")
 
     # Run batch conversion with default policy 'REJECT'
     batch_convert_to_surge(input_dir, output_dir, "REJECT")
